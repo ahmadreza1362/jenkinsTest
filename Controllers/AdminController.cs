@@ -21,7 +21,7 @@ namespace Datingapp.API.Controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
-        private readonly DataContext _context1;
+        private readonly DataContext _context;
         private readonly UserManager<User> _userManager;
         private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         private Cloudinary _cloudinary;
